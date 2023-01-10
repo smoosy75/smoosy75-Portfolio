@@ -22,6 +22,7 @@ function Header() {
         className="flex flex-row items-center"
       >
         <SocialIcon
+          className="my-social-icon"
           url="https://www.linkedin.com/in/saidmustapha/"
           fgColor="gray"
           bgColor="transparent"
