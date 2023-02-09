@@ -12,13 +12,10 @@ function Experience() {
       whileInView={{ opacity: 1 }}
       className="h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 mx-auto items-center justify-evenly"
     >
-      <h3 className="absolute uppercase top-24  tracking-[20px] text-2xl text-gray-500">
+      <h3 className="absolute uppercase top-20 md:top-24  tracking-[16px] text-xl md:text-2xl text-[#424242]">
         Experiences
       </h3>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
-        <ExperienceCard />
-        <ExperienceCard />
-      </div>
+      <ExperienceCard />
     </motion.div>
   );
 }

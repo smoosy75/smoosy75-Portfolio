@@ -6,6 +6,8 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: { flav: ["Flaviotte", "serif"] },
+    fontFamily: { human: ["Humane-Regular", "sans-serif"] },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };

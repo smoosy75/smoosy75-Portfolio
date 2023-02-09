@@ -1,6 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -22,17 +23,20 @@ function Header() {
         className="flex flex-row items-center"
       >
         <SocialIcon
+          target="_blank"
           className="my-social-icon"
           url="https://www.linkedin.com/in/saidmustapha/"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
+          target="_blank"
           url="https://github.com/smoosy75"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
+          target="_blank"
           url="https://www.instagram.com/mustapha_sdd/"
           fgColor="gray"
           bgColor="transparent"
@@ -60,10 +64,12 @@ function Header() {
           fgColor="gray"
           bgColor="transparent"
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400 hover:text-black">
-          {" "}
-          Entrer en Contact
-        </p>
+        <Link href="#contact">
+          <p className="uppercase hidden md:inline-flex text-sm text-gray-500 font-medium hover:text-black">
+            {" "}
+            Entrer en Contact
+          </p>
+        </Link>
       </motion.div>
     </header>
   );

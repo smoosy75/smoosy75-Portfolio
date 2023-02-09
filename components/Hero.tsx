@@ -7,8 +7,8 @@ function Hero() {
   const [text] = useTypewriter({
     words: [
       "Bonjour, c'est Mustapha",
-      "J'aime le sport,  et le Cinéma ",
-      "Mais je préfère coder :P",
+      "Développeur Fullstack",
+      "J'aime le sport, lire et le Cinéma",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -17,26 +17,26 @@ function Hero() {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <img
-        className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="./IMG_1016.jpg"
+        className="relative rounded-full h-32 w-32 mx-auto object-cover grayscale"
+        src="../im/IMG_1016.jpg"
         alt="mustapha face"
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+        <h2 className="text-sm uppercase text-[#424242] pb-2 tracking-[10px] font-human ">
           SOFTWARE ENGINEER
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-2xl md:text-5xl lg:text-6xl font-semibold px-10 font-flav text-[#805231]">
           <span className="mr-3">{text}</span>
-          <Cursor cursorColor="black" />
+          <Cursor cursorColor="#805231" />
         </h1>
-        <div className="pt-5">
+        <div className="pt-5 ">
           <Link href="#about">
             <button className="herobutton">A propos</button>
           </Link>
           <Link href="#experience">
-            <button className="herobutton">Experiences </button>
+            <button className="herobutton">Experiences</button>
           </Link>
-          <Link href="skills">
+          <Link href="#skills">
             <button className="herobutton">Compétences</button>
           </Link>
           <Link href="#projects">
