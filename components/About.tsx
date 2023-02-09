@@ -1,9 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { useTranslation } from "next-i18next";
 
 function About() {
-  const { t } = useTranslation(["about"]);
   return (
     <motion.div
       initial={{
@@ -14,7 +12,7 @@ function About() {
       className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 md:justify-evenly mx-auto items-center"
     >
       <h3 className="absolute top-20 uppercase tracking-[20px] text-[#424242] text-xl md:text-2xl font-human ">
-        {t("about")}
+        about
       </h3>
       <motion.img
         initial={{

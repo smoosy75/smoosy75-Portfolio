@@ -8,7 +8,6 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Link from "next/link";
 import { HomeIcon } from "@heroicons/react/24/solid";
-import "../i18n.js";
 
 export default function Home() {
   return (
