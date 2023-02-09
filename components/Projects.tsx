@@ -17,15 +17,16 @@ function Projects() {
       title: "Toasty Mood",
       desc: "Toasty Mood est un projet d'application lifestyle de journal combiné avec une API de météo. L'idée est que l'utilisateur puisse comparer les humeurs qu'il enregistre tout les jours en fonction de la météo afin de voir son influence. Cette web app a été realisé en equipe de 4 avec React. L'objectif futur serais de la transformer en réel application et y ajouter des fonctionnalités   ",
       img: "../im/toasty.png",
-      github: " ",
-      site: " ",
+      github: "https://github.com/smoosy75/Toasty-mood ",
+      site: "https://toasty-mood.netlify.app/ ",
     },
     {
       id: 3,
       title: "Enedis Com'lab",
       desc: "Ce logiciel Fullstack en equipe de 4 est un projet d'étude pour la société Enedis qui avait donné la consigne de créer un logiciel interne pour publier des articles de communication avec plusieurs groupes, pouvoir les gérer (supprimer, edit) avec un système d'administrateur et de rôles. Ce projet a été realisé en React et NodeJS et mysql.",
       img: "../im/enedis.png",
-      github: " ",
+      github:
+        " https://github.com/WildCodeSchool/2022-09-JS-RemoteFR-LesCrewStillants-P3-Enedis",
       site: " ",
     },
   ];
