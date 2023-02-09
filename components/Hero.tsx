@@ -8,7 +8,7 @@ function Hero() {
     words: [
       "Bonjour, c'est Mustapha",
       "Développeur Fullstack",
-      "J'aime le sport, lire et le Cinéma",
+      "sportif, lecteur et cinéphile",
     ],
     loop: true,
     delaySpeed: 2000,
