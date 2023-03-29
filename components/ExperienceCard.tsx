@@ -24,12 +24,15 @@ function ExperienceCard() {
       </p>
       <div className=" md:px-10 md:items-center ">
         <h4 className="text-4xl font-light text-white">ETUDIANT</h4>
-        <p className="uppercase py-5 text-white"> Sept 2022 - 15 Feb 2023 </p>
+        <p className="uppercase py-5 text-white"> Sept 2022 - 15 mars 2023 </p>
         <div className="flex space-x-2 my-2">
           <ul className="list-disc space-y-2 ml-5 text-white ">
             <li>Méthode Agile, Culture Dev</li>
             <li> Méthode d'apprentissage frameworks & languages</li>
-            <li>Js, React, Git, databases, Seo, Node, Express</li>
+            <li>
+              Js, PHP, React, Git, databases,SQL, Seo, Node, Express,
+              Algorithmie
+            </li>
           </ul>
         </div>
       </div>

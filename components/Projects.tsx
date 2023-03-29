@@ -29,6 +29,14 @@ function Projects() {
         " https://github.com/WildCodeSchool/2022-09-JS-RemoteFR-LesCrewStillants-P3-Enedis",
       site: " ",
     },
+    {
+      id: 4,
+      title: "Location Auto",
+      desc: "Ce Projet est un projet Front réaliser sur la base d'un template d'un designer. Réaliser en React et Scss. Le site web offre une interface permettant de rechercher, de comparer et de réserver des voitures.",
+      img: "../im/car.png",
+      github: "https://github.com/smoosy75/Location_auto ",
+      site: "https://location-auto.vercel.app",
+    },
   ];
 
   return (
@@ -80,7 +88,7 @@ function Projects() {
         ))}
       </div>
 
-      <div className="w-full absolute top-[30%] bg-gray-500/20 left-0 h-[500px] -skew-y-12"></div>
+      <div className="w-full absolute top-[30%] bg-green-800/20 left-0 h-[500px] -skew-y-12"></div>
     </div>
   );
 }
