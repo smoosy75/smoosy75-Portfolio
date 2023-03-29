@@ -5,11 +5,7 @@ import BackgroundCircles from "./backgroundCircles";
 
 function Hero() {
   const [text] = useTypewriter({
-    words: [
-      "Bonjour, c'est Mustapha",
-      "Développeur Fullstack",
-      "sportif, lecteur et cinéphile",
-    ],
+    words: ["Bonjour, c'est Mustapha", "Développeur Fullstack"],
     loop: true,
     delaySpeed: 2000,
   });
