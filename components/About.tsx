@@ -31,9 +31,9 @@ function About() {
         <h4 className="text-xl md:text-4xl font-semibold font-flav ">
           Un{" "}
           <span className="underline decoration-4 decoration-[#805231] ">
-            petit
+            peu
           </span>{" "}
-          peu de Moi
+          de Moi
         </h4>
         <p className="text-sm md:text-lg text-justify ">
           Je suis Mustapha, un développeur de 22 ans. Avant de me lancer, j'ai
