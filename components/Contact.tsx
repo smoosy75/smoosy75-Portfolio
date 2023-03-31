@@ -14,7 +14,7 @@ function Contact() {
   };
   return (
     <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute uppercase top-20 md:top-24  tracking-[20px] text-xl md:text-2xl text-[#424242]">
+      <h3 className=" absolute uppercase top-20 md:top-24  tracking-[20px] text-xl md:text-2xl text-[#424242] ">
         Contact
       </h3>
       <div className="flex flex-col md:space-y-5 lg:mt-20 mg:mt-20 mt-8 md:h-3/4">
@@ -38,7 +38,7 @@ function Contact() {
             <p className="md:text-lg ">Paris, France</p>
           </div>
 
-          <h5 className="font font-semibold text-xl text-center md:pt-2 ">
+          <h5 className=" font font-semibold text-xl text-center md:pt-2 ">
             ou, si vous preferez un formulaire
           </h5>
         </div>

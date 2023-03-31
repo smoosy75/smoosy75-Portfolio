@@ -1,7 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 function Projects() {
+  const slideLeft = () => {
+    const slider = document.getElementById("slider");
+    slider.scrollLeft = slider.scrollLeft - slider.offsetWidth;
+  };
+
+  const slideRight = () => {
+    const slider = document.getElementById("slider");
+    slider.scrollLeft = slider.scrollLeft + slider.offsetWidth;
+  };
+
   const Projects = [
     {
       id: 1,
@@ -44,7 +55,29 @@ function Projects() {
       <h3 className="absolute uppercase top-20 md:top-24  tracking-[20px] text-xl md:text-2xl text-[#424242] font-human">
         Projets
       </h3>
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-white scrollbar-thumb-black ">
+      <button
+        onClick={slideLeft}
+        className="absolute top-1/2 left-10 transform -translate-y-1/2 bg-white bg-opacity-50 h-8 w-8 rounded-full text-gray-800 flex items-center justify-center hover:bg-opacity-100 focus:outline-none z-50"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+      </button>
+      <div
+        id="slider"
+        className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-white scrollbar-thumb-black "
+      >
         {Projects.map((project) => (
           <div className="w-screen flex-shrink-0 snap-center flex-col space-y-5 items-center justify-center p-10 md:p-44 h-screen ">
             <motion.img
@@ -87,7 +120,25 @@ function Projects() {
           </div>
         ))}
       </div>
-
+      <button
+        onClick={slideRight}
+        className="absolute top-1/2 right-10 transform -translate-y-1/2 bg-white bg-opacity-50 h-8 w-8 rounded-full text-gray-800 flex items-center justify-center hover:bg-opacity-100 focus:outline-none z-50"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+      </button>
       <div className="w-full absolute top-[30%] bg-green-800/20 left-0 h-[500px] -skew-y-12"></div>
     </div>
   );
