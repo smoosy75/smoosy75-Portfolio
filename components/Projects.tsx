@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { useState } from "react";
 
 function Projects() {
   const slideLeft = () => {
@@ -76,7 +75,7 @@ function Projects() {
       </button>
       <div
         id="slider"
-        className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-white scrollbar-thumb-black "
+        className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-white scrollbar-thumb-black"
       >
         {Projects.map((project) => (
           <div className="w-screen flex-shrink-0 snap-center flex-col space-y-5 items-center justify-center p-10 md:p-44 h-screen ">

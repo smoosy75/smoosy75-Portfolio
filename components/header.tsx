@@ -23,19 +23,21 @@ function Header() {
         className="flex flex-row items-center"
       >
         <SocialIcon
+          className="hover:scale-110"
           target="_blank"
-          className="my-social-icon"
           url="https://www.linkedin.com/in/saidmustapha/"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
+          className="hover:scale-110"
           target="_blank"
           url="https://github.com/smoosy75"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
+          className="hover:scale-110"
           target="_blank"
           url="https://www.instagram.com/mustapha_sdd/"
           fgColor="gray"
